@@ -46,6 +46,16 @@
     </section>
 
     <script src="../background.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      window.onload = function() {
+        if (window.location.search.indexOf('confirmed=true') != -1) {
+          let h1 = document.querySelector('#cover h1.title')
+          let p = document.querySelector('#cover p.desc')
+          h1.innerHTML = 'Thank you!'
+          p.innerHTML = `You have subscribed to this newsletter. <br> You won't regret!`
+        }
+      }
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1L7X1354YF"></script>
     <script>
