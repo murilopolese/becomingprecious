@@ -297,30 +297,6 @@ a:link::before {
   text-shadow: -0.1rem 0.1rem var(--dark-blue);
 }
 
-
-#newsletter form label {
-  padding: 1rem 0;
-}
-
-#newsletter input,
-#newsletter button {
-  font-family: "Varela";
-  border: none;
-  outline: none;
-  padding: 1rem;
-  font-size: 1rem;
-  cursor: pointer;
-  margin: 0.5rem 0;
-  background: white;
-}
-
-#newsletter input[type="submit"] {
-  background: var(--yellow);
-  color: var(--dark-blue);
-  text-transform: uppercase;
-}
-
-
 @media screen and (max-width: 640px) {
   #cover h1 {
     font-size: 8rem;
